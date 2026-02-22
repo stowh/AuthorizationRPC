@@ -29,7 +29,7 @@ It supports **user registration**, **login**, **token refresh**, **token validat
 | **Language**       | Go 1.25+                                   |
 | **Protocol**       | gRPC (proto3)                              |
 | **Database**       | PostgreSQL                                 |
-| **Auth**           | JWT (access / refresh)                     |
+| **Auth**           | Access / Refresh                           |
 | **Middleware**     | RateLimiter, Logger                        |
 | **Sessions**       | Stored in PostgreSQL via `SessionsService` |
 | **Config**         | Custom `LocalConfig` structure             |
